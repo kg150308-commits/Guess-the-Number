@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <h1>GUESS THE NUMBER</h1>
+
+        <p class="subtitle">Can you find the secret number?</p>
+
+        <div class="number-range">
+            I'm thinking of a number between <strong>1 and 100</strong>
+        </div>
+
+        <div class="game-box">
+
+            <p class="instruction">Enter your guess below</p>
+
+            <input
+                type="number"
+                id="guessInput"
+                placeholder="Enter a number"
+                min="1"
+                max="100"
+            >
+
+            <button id="guessBtn">MAKE A GUESS</button>
+
+            <p id="message">Your adventure starts here!</p>
+
+            <div class="stats">
+                <div class="stat-box">
+                    <span>ATTEMPTS</span>
+                    <h2 id="attempts">0</h2>
+                </div>
+
+                <div class="stat-box">
+                    <span>BEST SCORE</span>
+                    <h2 id="bestScore">--</h2>
+                </div>
+            </div>
+
+            <button id="restartBtn" class="restart-btn">
+                PLAY AGAIN
+            </button>
+
+        </div>
+
+        <p class="footer">Made with curiosity and code ✦</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
