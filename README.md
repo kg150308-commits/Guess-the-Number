@@ -2,6 +2,7 @@
 
 ### Guess The Number
 A number guessing game built using HTML, CSS and JavaScript.
+![Guess the Number Banner](banner.png)
 
 [Play the Game](https://guessthenumber-iota.vercel.app/) -Vercel
 <br>
